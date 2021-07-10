@@ -1,4 +1,4 @@
-module authapp
+module github.com/vstorm/authapp
 
 go 1.14
 
