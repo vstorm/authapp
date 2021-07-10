@@ -1,4 +1,4 @@
-module github.com/go-kratos/kratos/cmd/protoc-gen-go-errors/v2
+module github.com/vstorm/authapp/protoc_plugin/protoc-gen-go-errors-vs
 
 go 1.15
 
