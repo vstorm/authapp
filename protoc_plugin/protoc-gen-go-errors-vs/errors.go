@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vstorm/authapp/protoc_plugin/protoc-gen-go-errors-vs/errors"
+	"github.com/vstorm/authapp/protoc_plugin/protoc-gen-go-errors-vs/v1/errors"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
 )
