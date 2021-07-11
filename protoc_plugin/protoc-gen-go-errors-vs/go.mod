@@ -1,4 +1,4 @@
-module github.com/vstorm/authapp/protoc_plugin/protoc-gen-go-errors-vs/v1
+module github.com/vstorm/authapp/protoc_plugin/protoc-gen-go-errors-vs
 
 go 1.14
 
