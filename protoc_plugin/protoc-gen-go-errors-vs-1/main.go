@@ -22,7 +22,7 @@ func main() {
 
 	var flags flag.FlagSet
 	protogen.Options{
-		ParamFunc: flags.Set,		// todo
+		ParamFunc: flags.Set,
 	}.Run(func(gen *protogen.Plugin) error {		// 运行protoc插件代码
 		gen.SupportedFeatures = uint64(pluginpb.CodeGeneratorResponse_FEATURE_PROTO3_OPTIONAL) // protobuf语言支持的特性
 		for _, f := range gen.Files {	// A File describes a .proto source file.

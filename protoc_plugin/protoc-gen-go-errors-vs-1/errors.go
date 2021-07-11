@@ -64,7 +64,7 @@ func genErrorsReason(gen *protogen.Plugin, file *protogen.File, g *protogen.Gene
 	}
 	var ew errorWrapper
 	for _, v := range enum.Values {
-		enumCode := code		// 默认code
+		enumCode := code
 		eCode := proto.GetExtension(v.Desc.Options(), errors.E_Code)
 		if ok := eCode.(int32); ok != 0 {
 			enumCode = int(ok)
